@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile page - SocialBook</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+    <nav>
+        <div class="nav-left">
+            <div>
+                <a href="index.html" class="main-logo">
+                    <img src="icons/icons8-menu.svg" >
+                    <span class="span1">Socialbook</span>
+                </a>
+            </div>
+            <ul> 
+                <li><img src="icons/icons8-youtube-47.png" alt=""></li>
+                <li><img src="icons/icons8-share-96.png" alt=""></li>
+                <li><img src="icons/icons8-linkedin-64.png" alt=""></li>
+            </ul>
+        </div>
+        <div class="nav-right">
+            <div class="search-box">
+                <img src="icons/icons8-search.svg" alt="">
+                <input type="text" placeholder="search">
+            </div>
+            <div class="nav-user-icon online" onclick="settingsMenuToggle()">
+                <img src="Images/IMG-20240124-WA0027.jpg" alt="">
+            </div>
+
+        </div>
+
+        <!-- --------right-settings-menu------- -->
+
+
+        <div class="settings-menu" id="settings-menu">
+
+            <div id="dark-btn">
+                <span></span>
+            </div>
+
+            <div class="settings-menu-inner">
+
+                <div class="user-profile">
+                    <img src="Images/IMG-20240124-WA0027.jpg">
+                    <div>
+                        <p>Imran Hud Sufyan</p>
+                        <a href="profile.html">See your profile</a>
+                    </div>
+                </div>
+                <hr>
+                <div class="user-profile">
+                    <img src="icons/icons8-message-48.png">
+                    <div>
+                        <p>Give Feedback</p>
+                        <a href="#">Help us to improve the new design</a>
+                    </div>
+                </div>
+                <hr>
+
+                <div class="settings-links">
+                    <img src="icons/icons8-setting-50.png" class="settings-icon" alt="">
+                    <a href="#">Setting & Privacy <img src="icons/icons8-down-96.png" width="13px" alt=""></a>
+                </div>
+                <div class="settings-links">
+                    <img src="icons/icons8-clear-shopping-cart-100.png" class="settings-icon" alt="">
+                    <a href="#">Help & Support <img src="icons/icons8-down-96.png" width="13px" alt=""></a>
+                </div>
+                <div class="settings-links">
+                    <img src="icons/icons8-android-64.png" class="settings-icon" alt="">
+                    <a href="#">Display & Accesibility <img src="icons/icons8-down-96.png" width="13px" alt=""></a>
+                </div>
+                <div class="settings-links">
+                    <img src="icons/icons8-logout-96.png" class="settings-icon" alt="">
+                    <a href="#">Logout <img src="icons/icons8-down-96.png" width="13px" alt=""></a>
+                </div>
+
+            </div>
+        </div>
+
+    </nav>
+    <!-- -------pprofile page------- -->
+
+    <div class="profile-container">
+        <img src="Images/IMG-20240124-WA0036.jpg" class="cover-img" alt="">
+        <div class="profile-details">
+            <div class="pd-left">
+                <div class="pd-row">
+                    <img src="Images/IMG-20240124-WA0027.jpg" class="pd-image" alt="">
+                    <div>
+                        <h3>Imran Hud</h3>
+                        <p>194 Friends - 30 Mutual</p>
+                        <img src="Images/IMG-20240124-WA0022.jpg" alt="">
+                        <img src="Images/IMG-20240124-WA0023.jpg" alt="">
+                        <img src="Images/IMG-20240124-WA0024.jpg" alt="">
+                        <img src="Images/IMG-20240124-WA0025.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="pd-right">
+
+                <button type="button"><img src="icons/icons8-user-80.png" alt=""> Friend</button>
+                <button type="button"><img src="icons/icons8-message-50.png"> Message</button>
+                <br>
+                <a href="#"><img src="icons/icons8-ellipsis-v-48.png" alt=""></a>
+            </div>
+        </div>
+
+        <div class="profile-info">
+            <div class="info-col">
+
+                <div class="profile-intro">
+                    <h3>intro</h3>
+                    <p class="intro-text">Believe in yourself you can do unbelievable things</p>
+                    <hr>
+                    <ul>
+                        <li><img src="icons/icons8-alarm-64.png" alt=""> Student at Bayero University Kano</li>
+                        <li><img src="icons/icons8-bank-50.png" alt=""> Studied at Bayero University Kano</li>
+                        <li><img src="icons/icons8-metro-24.png" alt=""> Member in Arraid Community</li>
+                        <li><img src="icons/icons8-cogwheel-64.png" alt=""> Live in Kano, Nigeria</li>
+                        <li><img src="icons/icons8-qr-code-64.png" alt=""> From Bachirawa</li>
+                    </ul>
+                </div>
+
+                <div class="profile-intro">
+                    <div class="title-box">
+                        <h3>Photos</h3>
+                        <a href="">All Photos</a>
+                    </div>
+                    <div class="photo-box">
+                        <div><img src="Images/IMG-20240124-WA0024.jpg" alt=""></div>
+                        <div><img src="Images/IMG-20240124-WA0025.jpg" alt=""></div>
+                        <div><img src="Images/IMG-20240124-WA0026.jpg" alt=""></div>
+                        <div><img src="Images/IMG-20240124-WA0030.jpg" alt=""></div>
+                        <div><img src="Images/IMG-20240124-WA0028.jpg" alt=""></div>
+                        <div><img src="Images/IMG-20240124-WA0029.jpg" alt=""></div>
+                    </div>
+                </div>
+
+                <div class="profile-intro">
+                    <div class="title-box">
+                        <h3>Friend</h3>
+                        <a href="">All Friends</a>
+                    </div>
+                    <p>120 (10 mutual)</p>
+                    <div class="friends-box">
+                        <div><img src="Images/IMG-20240124-WA0031.jpg" alt=""><p>Musa Hu</p></div>
+                        <div><img src="Images/IMG-20240124-WA0032.jpg" alt=""><p>Ibrah Y</p></div>
+                        <div><img src="Images/IMG-20240124-WA0033.jpg" alt=""><p>Abbas N</p></div>
+                        <div><img src="Images/IMG-20240124-WA0034.jpg" alt=""><p>Kabiru H</p></div>
+                        <div><img src="Images/IMG-20240124-WA0035.jpg" alt=""><p>Mubarak</p></div>
+                        <div><img src="Images/IMG-20240124-WA0036.jpg" alt=""><p>Musa Gh</p></div>
+                        <div><img src="Images/IMG-20240124-WA0037.jpg" alt=""><p>Musa Gh</p></div>
+                        <div><img src="Images/IMG-20240124-WA0038.jpg" alt=""><p>Musa Gh</p></div>
+                        <div><img src="Images/IMG-20240124-WA0039.jpg" alt=""><p>Musa Gh</p></div>
+                    </div>
+                </div>
+            </div>
+            <div class="post-col">
+                <div class="write-post-container">
+                    <div class="user-profile">
+                        <img src="Images/IMG-20240124-WA0027.jpg">
+                        <div>
+                            <p>Imran Hud Sufyan</p>
+                            <small>Public <img src="icons/icons8-down-60.png" alt="" class="down-icon"></small>
+                        </div>
+                    </div>
+            
+                    <div class="post-input-container">
+                        <textarea rows="3" placeholder="What's on your mind, Imran"></textarea>
+                        <div class="add-post-links">
+                            <a href="#"><img src="icons/icons8-youtube-47.png" alt=""> Live Video </a>
+                            <a href="#"><img src="icons/icons8-friends-64.png" alt=""> Photo/Video</a>
+                            <a href="#"><img src="icons/icons8-bank-50.png" alt=""> Feeling/Activity </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="post-container">
+                    <div class="post-row">
+                        <div class="user-profile">
+                            <img src="Images/IMG-20240124-WA0027.jpg">
+                            <div>
+                                <p c>Imran Hud Sufyan</p>
+                                <span>Jan 26 2024, 08:36 pm</span>
+                            </div>
+                        </div>
+                        <a href="#"><img src="icons/icons8-ellipsis-v-48.png" class="ellipsis" alt="" ></a>
+            
+                    </div>
+            
+                    <p class="post-text">Lorem ipsum dolor <span>@Imranhud</span> sit amet consectetur adipisicing elit. Dicta perferendis consequuntur similique  repellendus. <a href="#">Learn More On Youtube</a></p>
+                    <img src="Images/IMG-20240124-WA0037.jpg" alt="" class="post-img">
+                    <div class="post-row">
+                        <div class="activity-icons">
+                            <div><img src="icons/icons8-likes-and-dislikes-66.png" alt=""> 120</div>
+                            <div><img src="icons/icons8-message-64.png" alt=""> 45</div>
+                            <div><img src="icons/icons8-share-96.png" alt=""> 20</div>
+                        </div>
+                        <div class="post-profile-icon">
+                            <img src="Images/IMG-20240124-WA0027.jpg" alt=""> <img src="icons/icons8-down-60.png" alt="" class="down-icon">
+            
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="post-container">
+                    <div class="post-row">
+                        <div class="user-profile">
+                            <img src="Images/IMG-20240124-WA0027.jpg">
+                            <div>
+                                <p c>Imran Hud Sufyan</p>
+                                <span>Jan 27 2024, 11:36 pm</span>
+                            </div>
+                        </div>
+                        <a href="#"><img src="icons/icons8-ellipsis-v-48.png" class="ellipsis" alt="" ></a>
+            
+                    </div>
+            
+                    <p class="post-text">Politics is key and one of major process to promote changes <span>@Imranhud</span> sit amet consectetur adipisicing elit. Date repe. <a href="#">Learn More On Youtube.</a></p>
+                    <img src="Images/IMG-20240124-WA0038.jpg" alt="" class="post-img">
+                    <div class="post-row">
+                        <div class="activity-icons">
+                            <div><img src="icons/icons8-likes-and-dislikes-66.png" alt=""> 120</div>
+                            <div><img src="icons/icons8-message-64.png" alt=""> 45</div>
+                            <div><img src="icons/icons8-share-96.png" alt=""> 20</div>
+                        </div>
+                        <div class="post-profile-icon">
+                            <img src="Images/IMG-20240124-WA0027.jpg" alt=""> <img src="icons/icons8-down-60.png" alt="" class="down-icon">
+            
+                        </div>
+                    </div>
+                </div>
+                <div class="post-container">
+                    <div class="post-row">
+                        <div class="user-profile">
+                            <img src="Images/IMG-20240124-WA0027.jpg">
+                            <div>
+                                <p c>Imran Hud Sufyan</p>
+                                <span>June 27 2024, 02:36 pm</span>
+                            </div>
+                        </div>
+                        <a href="#"><img src="icons/icons8-ellipsis-v-48.png" class="ellipsis" alt="" ></a>
+            
+                    </div>
+            
+                    <p class="post-text">Politics is key and one of major process to promote changes <span>@Imranhud</span> sit amet consectetur adipisicing elit. Date repe. <a href="#">Learn More On Youtube.</a></p>
+                    <img src="Images/IMG-20240124-WA0022.jpg" alt="" class="post-img">
+                    <div class="post-row">
+                        <div class="activity-icons">
+                            <div><img src="icons/icons8-likes-and-dislikes-66.png" alt=""> 120</div>
+                            <div><img src="icons/icons8-message-64.png" alt=""> 45</div>
+                            <div><img src="icons/icons8-share-96.png" alt=""> 20</div>
+                        </div>
+                        <div class="post-profile-icon">
+                            <img src="Images/IMG-20240124-WA0027.jpg" alt=""> <img src="icons/icons8-down-60.png" alt="" class="down-icon">
+            
+                        </div>
+                    </div>
+                </div>
+                <div class="post-container">
+                    <div class="post-row">
+                        <div class="user-profile">
+                            <img src="Images/IMG-20240124-WA0027.jpg">
+                            <div>
+                                <p c>Imran Hud Sufyan</p>
+                                <span>Jan 27 2024, 11:36 pm</span>
+                            </div>
+                        </div>
+                        <a href="#"><img src="icons/icons8-ellipsis-v-48.png" class="ellipsis" alt="" ></a>
+            
+                    </div>
+            
+                    <p class="post-text">Politics is key and one of major process to promote changes <span>@Imranhud</span> sit amet consectetur adipisicing elit. Date repe. <a href="#">Learn More On Youtube.</a></p>
+                    <img src="Images/IMG-20240124-WA0023.jpg" alt="" class="post-img">
+                    <div class="post-row">
+                        <div class="activity-icons">
+                            <div><img src="icons/icons8-likes-and-dislikes-66.png" alt=""> 120</div>
+                            <div><img src="icons/icons8-message-64.png" alt=""> 45</div>
+                            <div><img src="icons/icons8-share-96.png" alt=""> 20</div>
+                        </div>
+                        <div class="post-profile-icon">
+                            <img src="Images/IMG-20240124-WA0027.jpg" alt=""> <img src="icons/icons8-down-60.png" alt="" class="down-icon">
+            
+                        </div>
+                    </div>
+                </div>
+                <div class="post-container">
+                    <div class="post-row">
+                        <div class="user-profile">
+                            <img src="Images/IMG-20240124-WA0027.jpg">
+                            <div>
+                                <p c>Imran Hud Sufyan</p>
+                                <span>Jan 27 2024, 11:36 pm</span>
+                            </div>
+                        </div>
+                        <a href="#"><img src="icons/icons8-ellipsis-v-48.png" class="ellipsis" alt="" ></a>
+            
+                    </div>
+            
+                    <p class="post-text">Politics is key and one of major process to promote changes <span>@Imranhud</span> sit amet consectetur adipisicing elit. Date repe. <a href="#">Learn More On Youtube.</a></p>
+                    <img src="Images/IMG-20240124-WA0039.jpg" alt="" class="post-img">
+                    <div class="post-row">
+                        <div class="activity-icons">
+                            <div><img src="icons/icons8-likes-and-dislikes-66.png" alt=""> 120</div>
+                            <div><img src="icons/icons8-message-64.png" alt=""> 45</div>
+                            <div><img src="icons/icons8-share-96.png" alt=""> 20</div>
+                        </div>
+                        <div class="post-profile-icon">
+                            <img src="Images/IMG-20240124-WA0027.jpg" alt=""> <img src="icons/icons8-down-60.png" alt="" class="down-icon">
+            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+<div class="footer">
+    <p> &copy; Copyright 2024 - Imran Hud </p>
+</div>
+<script src="script.js"></script>
+</body>
+</html> 
