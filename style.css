@@ -37,10 +37,18 @@ nav{
 /* ---------my logo and socialbook stucks--------- */
 
 .nav-left .main-logo{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-content: center; */
     text-decoration: none;
+}
+.logo-image{
+    width: 84px;
+    height: 34px;
+    margin-right: 15px;
+}
+.lis{
+    list-style: var(--bg-color);
 }
 .span1{
     display: inline-block;
@@ -689,7 +697,7 @@ p img{
         display: none;
     }
     nav{
-        flex-wrap: wrap;s
+        flex-wrap: wrap;
     }
     .search-box{
         display: none;
