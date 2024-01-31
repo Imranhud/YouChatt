@@ -692,6 +692,9 @@ p img{
     .right-sidebar{
         display: none;
     }
+    .logo-image{
+        width: 80px;
+    }
     .left-sidebar{
         display: none;
     }
